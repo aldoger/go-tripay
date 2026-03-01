@@ -21,6 +21,7 @@ type (
 		CustomerPhone string                         `json:"customer_phone"`
 		OrderItems    []OrderItemClosePaymentRequest `json:"order_items"`
 		ReturnURL     string                         `json:"return_url"`
+		CallbackURL   string                         `json:"callback_url"`
 		ExpiredTime   TripayExpiredTime              `json:"expired_time"`
 		Signature     string                         `json:"signature"`
 	}
